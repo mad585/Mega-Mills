@@ -1,0 +1,1 @@
+import{c as o,g as t,R as i,j as s}from"./vendor.js";const l={key:0},n={key:1},_=o({__name:"TileTitle",props:{title:{},isFirstTileWithTitle:{type:Boolean}},setup(r){return(e,a)=>e.isFirstTileWithTitle?(s(),t("h1",l,i(e.title),1)):(s(),t("h2",n,i(e.title),1))}});export{_};
